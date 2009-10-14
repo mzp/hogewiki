@@ -1,0 +1,132 @@
+/* MENU PANEL*/
+.site ul.navigation{
+    display:block;
+    width:800px;
+    height:36px;
+    margin:11px 0 0;
+    padding:0 29px 0 0;
+    border-bottom:1px solid #AEAEAE;
+}
+.site ul.navigation li{
+    float:right;
+    font:12px/36px "Trebuchet MS",Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+.site ul.navigation li a{
+    width:74px;
+    height:36px;
+    display:block;
+    padding:0;
+    color:#555;
+    background:#fff;
+    text-decoration:none;
+    text-align:center;
+    margin:0 1px 0 0;
+    top:0px;
+    left:0px;
+}
+.site ul.navigation li a:hover{
+    width:74px;
+    height:36px;
+    text-decoration:none;
+    background:url(images/button.gif) no-repeat 0 0 #AEAEAE;
+    color:#fff;
+}
+.site ul.navigation li.active{
+    width:74px;
+    display:block;
+    height:36px;
+    background:url(images/button.gif) no-repeat 0 0 #AEAEAE;
+    color:#fff;
+    text-align:center;
+    margin:0 1px 0 0;
+}
+
+/* HEADER PANEL*/
+.site .panels{
+    margin-top:30px;
+}
+
+.site .panel{
+    height:263px;
+    width:246px;
+    padding:0px;
+    color:#fff;
+}
+.site .panel a{
+    width:246px;
+    height:263px;
+    display:block;
+    text-decoration:none;
+    z-index:2;
+    margin-top:-165px;
+}
+
+.site .panel a:hover{
+    width:246px;
+    height:263px;
+    color:#fff;
+    text-decoration:none;
+}
+
+.site .panel h2{
+    display:block;
+    width:90px;
+    height:47px;
+    margin:54px 0 0 120px;
+    font:28px/28px "Trebuchet MS",Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    text-transform:uppercase;
+    z-index:1;
+    color:white;
+}
+
+.site .panel p{
+    width:163px;
+    display:block;
+    font:12px/18px Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    margin:0px 10px 10px 30px;
+}
+
+.site .panel.party{
+    background:url(images/orange-normal.jpg) no-repeat 0 0 #FC5F00;
+}
+.site .panel.party a:hover{
+    background:url(images/orange-hover.jpg) no-repeat 0 0 #FC5F00;
+}
+.site .panel.git{
+    background:url(images/green-normal.jpg) no-repeat 0 0 #FC5F00;
+}
+.site .panel.git a:hover{
+    background:url(images/green-hover.jpg) no-repeat 0 0 #FC5F00;
+}
+.site .panel.page{
+    background:url(images/blue-normal.jpg) no-repeat 0 0 #FC5F00;
+}
+.site .panel.page a:hover{
+    background:url(images/blue-hover.jpg) no-repeat 0 0 #FC5F00;
+}
+
+/* footer */
+.credits {
+    font-size:10px;
+}
+.credits ul.navigation {
+    list-style:none;
+    display:block;
+    text-align:right;
+}
+.credits ul.navigation li{
+    float:left;
+    font:12px/15px Arial, Helvetica, sans-serif;
+    font-weight:normal;
+}
+.credits ul.navigation li a{
+    padding:0 6px;
+    color:#4C4C4C;
+    text-decoration:none;
+}
+.credits ul.navigation li a:hover{
+    text-decoration:underline;
+}

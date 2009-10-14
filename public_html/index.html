@@ -1,74 +1,86 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>hoge wiki 3.0</title>
-<link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-<div id="topPanel">
-<ul>
-<li><a href="#">Contact</a></li>
-<li><a href="#">Clients</a></li>
-<li><a href="#"> Support</a></li>
-<li><a href="#">About us</a></li>
-<li class="active">Home</li>
-</ul>
-<a href="index.html"><img src="images/logo.gif" title="Trial Services" alt="Trial Services" width="230" height="80" border="0" /></a>
-<div id="headerPanelfast">
-	<h2>SAKE</h2>
-	<p>お酒飲みません？</p>
-	<a href="#">
-&nbsp;	</a></div>
-<div id="headerPanelsecond">
-	<h2>Git</h2>
-	<p>みんなで.emacsとかを共有しましょう．</p>
-	<a href="#">
-&nbsp;	</a></div>
-<div id="headerPanelthird">
-	<h2>Wiki</h2>
-	<p>自由記述欄．過去問があったりするかも．</p>
-	<a href="#">
-&nbsp;	</a></div>
-</div>
-<div id="bodyPanel">
-	<h2>About Us</h2>
-	<p>
-	  <span>hoge wiki</span>を再構築します．飲み会の開催に特化したり，Twitterの連携，gitとの連携を目指します．モダンな感じにしたいですね．
-	あと，昔にといたテストの過去問とかがあるかもしれません．というか寂しいので，チャットとかでいいんで，もっとかまってください．
-	</p>
-	<p class="moretwo"><a href="#">More</a></p>
-
-	<h3>Testimonials</h3>
-	<h4>Member</h4>
-	<ul>
-	<li>mzp</li>
-	<li>dmp</li>
-	<li>McAf</li>
-	<li>nnr</li>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>hoge wiki 3.0</title>
+    <link rel="stylesheet" href="screen.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="print.css" type="text/css" media="print" />
+    <!--[if lt IE 8]>
+	<link rel="stylesheet" href="ie.css" type="text/css" media="screen, projection" />
+    <![endif]-->
+    <link rel="stylesheet" href="main.css" type="text/css" media="screen, projection" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="site spna-24">
+	<ul class="navigation">
+	  <li><a href="#">Git</a></li>
+	  <li><a href="#">Party</a></li>
+	  <li><a href="#">Member</a></li>
+	  <li><a href="#">About us</a></li>
+	  <li class="active">Home</li>
 	</ul>
 
-<div id="testimonial">
-	<p><span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
-    Lorem Ipsum has been the.ing essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum</p>
+	<div class="span-22 panels prepend-1 append-1">
+	  <div class="span-7 panel party">
+	    <h2>party</h2>
+	    <p>飲み会の開催。たまには、みんなで集まってお酒を飲みましょう。</p>
+	    <a href="#">&nbsp;</a>
+	  </div>
+	  <div class="span-7 panel git">
+	    <h2>Git</h2>
+	    <p>ソースコードの共有。みんなでEmacsやzshの設定を共有しましょう。</p>
+	    <a href="#">&nbsp;</a>
+	  </div>
+	  <div class="span-7 panel page">
+	    <h2>page</h2>
+	    <p>自由に作成できるページ。院試や定期試験の過去問の答えもあります。</p>
+	    <a href="#">&nbsp;</a>
+	  </div>
+	</div>
+      </div>
+
+      <div class="span-15">
+	<h2>About Us</h2>
+	<p>
+	  かつてはN大学情報科の雑多な情報を集めたページでした。今は、飲み会の連絡におもに用いられています。
+	</p>
+	<p>
+	  また、このページはgitによって管理されています。
+	  mzpにアカウントを発行してもらったうえで、
+	  <code>ssh://howdyworld.org/var/git/</code>
+	  にpushすればページを書き換えることができます。
+	</p>
 	<p class="moretwo"><a href="#">More</a></p>
-</div>
-</div>
-<div id="footerPanel">
-  <div id="footerbodyPanel">
-  <ul>
-  <li><a href="#">Home </a>| </li>
-  <li><a href="#">About us</a> | </li>
-  <li><a href="#">Support </a>| </li>
-  <li><a href="#">Clients</a> | </li>
-  <li><a href="#">Contact </a> </li>
-  </ul>
-  <p class="copyright">&copy; trial services all right reaserved</p>
-  <ul class="templateworld">
-  	<li>Design By:</li>
-	<li><a href="http://www.templateworld.com" target="_blank">Template World</a></li>
-  </ul>
-</div>
-</body>
+      </div>
+
+      <div class="span-8 prepend-1 last">
+	<h2>Member</h2>
+	<ul>
+	  <li>mzp</li>
+	  <li>selva</li>
+	  <li>McAf</li>
+	  <li>Monly</li>
+	  <li>dmp</li>
+	  <li>nnr</li>
+	  <li>ひろ</li>
+	  <li>ドーナッツ塔</li>
+	  <li>TOOO</li>
+	  <li>帝王サマ</li>
+	  <li>selene</li>
+	  <li>nasa2w</li>
+	</ul>
+      </div>
+
+      <div class="span-24 credits">
+	<ul class="navigation">
+	  <li><a href="#">Home </a>| </li>
+	  <li><a href="#">About us</a> | </li>
+	  <li><a href="#">Support </a>| </li>
+	  <li><a href="#">Clients</a> | </li>
+	  <li><a href="#">Contact </a> </li>
+	</ul>
+      </div>
+    </div>
+  </body>
 </html>
