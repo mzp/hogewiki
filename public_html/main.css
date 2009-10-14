@@ -58,7 +58,7 @@
     height:263px;
     display:block;
     text-decoration:none;
-    z-index:2;
+    z-index:0;
     margin-top:-165px;
 }
 
@@ -111,6 +111,7 @@
 /* footer */
 .credits {
     font-size:10px;
+    height:100px;
 }
 .credits ul.navigation {
     list-style:none;
@@ -130,3 +131,22 @@
 .credits ul.navigation li a:hover{
     text-decoration:underline;
 }
+
+/*.page */
+.page ul {
+    list-style:none;
+    padding-left:2.0em;
+}
+.page ul li{
+    font:12px/25px Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    background:url(images/symbol2.gif) 0 8px no-repeat;
+    padding:0 0 0 20px;
+}
+
+.page ul span{
+    background:url(images/dot-line.gif) repeat-x 0 100%;
+    height:25px;
+    display:block;
+}
+
