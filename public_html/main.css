@@ -59,7 +59,8 @@
     height:263px;
     display:block;
     text-decoration:none;
-    z-index:0;
+    position:relative;
+    z-index:1;
     margin-top:-165px;
 }
 
@@ -78,7 +79,7 @@
     font:28px/28px "Trebuchet MS",Arial, Helvetica, sans-serif;
     font-weight:bold;
     text-transform:uppercase;
-    z-index:1;
+    z-index:0;
     color:white;
 }
 
@@ -93,19 +94,19 @@
 .site .panel.party{
     background:url(images/orange-normal.jpg) no-repeat 0 0 #FC5F00;
 }
-.site .panel.party a:hover{
+.site .panel.party:hover{
     background:url(images/orange-hover.jpg) no-repeat 0 0 #FC5F00;
 }
 .site .panel.git{
     background:url(images/green-normal.jpg) no-repeat 0 0 #FC5F00;
 }
-.site .panel.git a:hover{
+.site .panel.git:hover{
     background:url(images/green-hover.jpg) no-repeat 0 0 #FC5F00;
 }
 .site .panel.page{
     background:url(images/blue-normal.jpg) no-repeat 0 0 #FC5F00;
 }
-.site .panel.page a:hover{
+.site .panel.page:hover{
     background:url(images/blue-hover.jpg) no-repeat 0 0 #FC5F00;
 }
 
