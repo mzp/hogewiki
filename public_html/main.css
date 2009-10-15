@@ -5,6 +5,7 @@
     height:36px;
     margin:11px 0 0;
     padding:0 29px 0 0;
+    list-style:none;
     border-bottom:1px solid #AEAEAE;
 }
 .site ul.navigation li{
@@ -135,10 +136,13 @@
 /*.page */
 .page ul {
     list-style:none;
-    padding-left:2.0em;
+    padding-left:1.0em;
 }
 .page .twitter ul {
  padding-left:0;
+}
+.page .twitter {
+  margin-bottom:20px;
 }
 
 .page ul li{
@@ -154,3 +158,11 @@
     display:block;
 }
 
+.loading{
+  border-width:0;
+  background-color:#FFFF88;
+  text-align:center;
+  height:50px;
+  padding:10px;
+  font-size:26px;
+}

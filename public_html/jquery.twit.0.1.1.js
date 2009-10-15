@@ -31,7 +31,6 @@
 
     return this.each(function(i, e) {
       var $e = $(e);
-      $e.text("");
       if (!$e.hasClass('twit')) $e.addClass('twit');
 
       jQuery.ajax({
@@ -39,6 +38,7 @@
         data: params,
         dataType: 'jsonp',
         success: function (o) {
+	  $e.text("");
           c.apply(this, [(o.results) ? o.results: o, e, opts]);
         }
       });
