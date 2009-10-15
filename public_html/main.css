@@ -137,6 +137,10 @@
     list-style:none;
     padding-left:2.0em;
 }
+.page .twitter ul {
+ padding-left:0;
+}
+
 .page ul li{
     font:12px/25px Arial, Helvetica, sans-serif;
     font-weight:normal;

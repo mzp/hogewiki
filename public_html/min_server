@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+require 'webrick'
+require 'erb'
+include WEBrick
+
+s = HTTPServer.new(:Port=>8001,:DocumentRoot=> Dir::pwd,  :DirectoryIndex => ["index.html","index.htm","index.cgi","index.rhtml"])
+trap("INT"){ s.shutdown }
+s.start
