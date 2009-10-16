@@ -70,7 +70,7 @@
 
     var h = "";
     if (opts.icon || opts.username) {
-	h += '<div class="twitUser">';
+	h += '<div class="user">';
       if (opts.icon)
         h +=
           ' <a href="http://twitter.com/' + username + '/">' +
@@ -80,7 +80,7 @@
         h += '<a href="http://twitter.com/' + username + '/">' + username + '</a>';
       h += '</div>';
     }
-    h += '<ul class="twitBody" id="twitList' + _i + '">' + _build(o, $this, opts) + '</ul>';
+    h += '<ul>' + _build(o, $this, opts) + '</ul>';
 
     $this.html(h);
 
@@ -118,7 +118,7 @@
         username = t.user.screen_name,
         icon = t.user.profile_image_url;
 
-      h += '<li class="twitEntry">';
+      h += '<li>';
       if (opts.text) {
         var text = t.text
           .replace(/(https?:\/\/[-_.!~*\'()a-zA-Z0-9;\/?:\@&=+\$,%#]+)/, function (u) {
