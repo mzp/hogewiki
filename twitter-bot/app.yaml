@@ -1,0 +1,10 @@
+application: hogewiki-bot
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /echo/.*
+  script: echo.py
+- url: .*
+  script: main.py
